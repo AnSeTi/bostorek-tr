@@ -38,7 +38,7 @@ export default {
 
 <style scoped>
 .custom-nav {
-  background-color: #063547;
+  background-color: var(--primary-color);
   padding: 15px 0;
 }
 .navbar-brand {
@@ -55,11 +55,11 @@ export default {
 }
 
 .nav-link:hover{
-  color:#44b89d;
+  color:var(--secondary-color);
 }
 
 .active-link{
-  color:#44b89d;
+  color:(--secondary-color);
 }
 </style>
 
